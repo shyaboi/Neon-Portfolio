@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document
-    </title>
-    <!-- bootstrap link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- css link -->
-    <link rel="stylesheet" href="muh.css">
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Shyaboi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- google fonts link merienda -->
+  <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="muh.css">
+  <!-- nav bar -->
+  <div id="mainboxnav">
+    <div class="container" id="mainboxnav2">
+      <nav>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navtop">
+          <div class="container" id="shyaboi">
+            <a class="navbar-brand" href="index.html">
+              <h1>Shyaboi</h1>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- navbar right side -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  </nav>
+
+</head>
+
 <body>
-    <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
-    
+  <div id="bg">
+    <div class="container" id="mainbox">
+      <div class="container" id="mainbox2">
+        <header>
+          <h1>Contact</h1>
+          <br>
+        </header>
+      </div>
+      <br>
+      <div class="container">
+        <!-- contact form -->
+        <form>
+          <!-- name input -->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Name</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="David Beefly"></textarea>
+          </div>
+          <!-- email input -->
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="davebeef@yahoop.com">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <!-- message input -->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" >Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="messagebox"
+              placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aliquid rem molestiae fugiat perspiciatis veritatis nobis alias facere et? Sed saepe distinctio consectetur maiores vel voluptas optio qui voluptatum doloribus!"></textarea>
+              <small id="messagebox" class="form-text text-muted">Enter your message above^ ( ͡° ͜ʖ ͡°)</small>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <footer>coppirite</footer>
 </body>
+
 </html>
