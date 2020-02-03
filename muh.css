@@ -18,7 +18,6 @@ h1 {
     text-shadow: 0 0 3px black;
     font-family: 'Merienda', cursive;
 }
- 
 
 /* .container-right-nav {
 } */
@@ -53,7 +52,6 @@ h1 {
     background-color: white;
 }
 
-
 #mainbox2 {
     box-sizing: border-box;
 }
@@ -72,11 +70,100 @@ body {
 #capbox1 {
     background-color: lightslategrey;
 }
+
 .carousel-caption {
     height: 10%;
-  }
-  
-.navbar-nav>li{
+}
+
+#picbox2:hover .pictext2 {
+    opacity: 60%;
+    visibility: visible;
+}
+
+#picbox2 .pictext2 {
+    left: 20%;
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#picbox:hover .pictext {
+    opacity: 60%;
+    visibility: visible;
+}
+
+#picbox .pictext {
+    left: 20%;
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#picbox3:hover .pictext3 {
+    opacity: 60%;
+    visibility: visible;
+}
+
+#picbox3 .pictext3 {
+    left: 20%;
+    bottom:0;
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#picbox4:hover .pictext4 {
+    opacity: 60%;
+    visibility: visible;
+}
+
+#picbox4 .pictext4 {
+    left: 20%;
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#picbox5:hover .pictext5 {
+    opacity: 60%;
+    visibility: visible;
+}
+
+#picbox5 .pictext5 {
+    left: 20%;
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-nav>li {
     line-height: 20%;
     border-right: .2px solid rgb(15, 94, 168);
     /* border-right-style: dotted; */
@@ -84,13 +171,13 @@ body {
     /* border-right-style: initial; */
     /* border-right-style: groove; */
     /* border-right-style: inset; */
-  }
+}
 
- footer {    
+footer {
     border-top-style: solid;
     border-top-width: 1%;
     border-top-color: #92a8d1;
-    background-image: linear-gradient(-90deg, rgb(63, 82, 122), rgb(67, 116, 221) );
+    background-image: linear-gradient(-90deg, rgb(63, 82, 122), rgb(67, 116, 221));
     position: fixed;
     bottom: 0;
     padding: 0%;
@@ -98,4 +185,4 @@ body {
     width: 100%;
     text-align: center;
     text-align-last: auto;
- }
+}
