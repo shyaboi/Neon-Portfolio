@@ -19,6 +19,11 @@ h1 {
     font-family: 'Merienda', cursive;
 }
 
+a {
+
+    font-size: xx-large;
+}
+
 /* .container-right-nav {
 } */
 
@@ -76,7 +81,7 @@ body {
 }
 
 #picbox2:hover .pictext2 {
-    opacity: 60%;
+    opacity: 90%;
     visibility: visible;
 }
 
@@ -94,7 +99,7 @@ body {
 }
 
 #picbox:hover .pictext {
-    opacity: 60%;
+    opacity: 90%;
     visibility: visible;
 }
 
@@ -111,13 +116,12 @@ body {
     z-index: 1;
 }
 #picbox3:hover .pictext3 {
-    opacity: 60%;
+    opacity: 90%;
     visibility: visible;
 }
 
 #picbox3 .pictext3 {
     left: 20%;
-    bottom:0;
     visibility: hidden;
     width: 220px;
     background-color: black;
@@ -129,7 +133,7 @@ body {
     z-index: 1;
 }
 #picbox4:hover .pictext4 {
-    opacity: 60%;
+    opacity: 80%;
     visibility: visible;
 }
 
@@ -146,7 +150,7 @@ body {
     z-index: 1;
 }
 #picbox5:hover .pictext5 {
-    opacity: 60%;
+    opacity: 90%;
     visibility: visible;
 }
 
@@ -162,6 +166,8 @@ body {
     position: absolute;
     z-index: 1;
 }
+
+
 
 .navbar-nav>li {
     line-height: 20%;
