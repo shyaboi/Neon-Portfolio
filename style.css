@@ -76,9 +76,11 @@ body {
     background-color: lightslategrey;
 }
 
-.carousel-caption {
+#gitHub {
     height: 10%;
+    width: 10%;
 }
+
 
 #picbox2:hover .pictext2 {
     opacity: 90%;
