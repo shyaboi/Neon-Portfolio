@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Neon-Portfolio/static/css/main.a977f5a6.chunk.css",
+    "main.js": "/Neon-Portfolio/static/js/main.ce7bd303.chunk.js",
+    "main.js.map": "/Neon-Portfolio/static/js/main.ce7bd303.chunk.js.map",
+    "runtime-main.js": "/Neon-Portfolio/static/js/runtime-main.880fd6a5.js",
+    "runtime-main.js.map": "/Neon-Portfolio/static/js/runtime-main.880fd6a5.js.map",
+    "static/js/2.3b87625e.chunk.js": "/Neon-Portfolio/static/js/2.3b87625e.chunk.js",
+    "static/js/2.3b87625e.chunk.js.map": "/Neon-Portfolio/static/js/2.3b87625e.chunk.js.map",
+    "index.html": "/Neon-Portfolio/index.html",
+    "precache-manifest.fde664628e9d6418e0e81d0f56f11989.js": "/Neon-Portfolio/precache-manifest.fde664628e9d6418e0e81d0f56f11989.js",
+    "service-worker.js": "/Neon-Portfolio/service-worker.js",
+    "static/css/main.a977f5a6.chunk.css.map": "/Neon-Portfolio/static/css/main.a977f5a6.chunk.css.map",
+    "static/js/2.3b87625e.chunk.js.LICENSE.txt": "/Neon-Portfolio/static/js/2.3b87625e.chunk.js.LICENSE.txt",
+    "static/media/dawn.png": "/Neon-Portfolio/static/media/dawn.4732a3db.png",
+    "static/media/epi.png": "/Neon-Portfolio/static/media/epi.8b9996d8.png",
+    "static/media/github.png": "/Neon-Portfolio/static/media/github.88e95f47.png",
+    "static/media/groce.png": "/Neon-Portfolio/static/media/groce.c6ccbb68.png",
+    "static/media/linked.png": "/Neon-Portfolio/static/media/linked.f9a440a8.png",
+    "static/media/namegen.png": "/Neon-Portfolio/static/media/namegen.12084926.png",
+    "static/media/neckbard.jpg": "/Neon-Portfolio/static/media/neckbard.0d76b6a5.jpg",
+    "static/media/poke.png": "/Neon-Portfolio/static/media/poke.16eb7752.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.880fd6a5.js",
+    "static/js/2.3b87625e.chunk.js",
+    "static/css/main.a977f5a6.chunk.css",
+    "static/js/main.ce7bd303.chunk.js"
+  ]
+}
