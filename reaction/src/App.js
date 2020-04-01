@@ -12,9 +12,10 @@ import namegen from './imgs/namegen.png'
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
-    <section class="animated-grid">
+    <section class="animated-gnporid">
 
     <div class="card">  <a href="https://shyaboi.github.io/TubularRepo…">
         <img src={namegen} alt="Name Generator"/></a></div>
